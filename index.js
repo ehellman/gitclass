@@ -7,5 +7,8 @@ app.use('/activities', (req, res) => {
 app.use('/activities/:id', (req, res) => {
   res.send(200)
 })
+app.use('/', (req, res) => {
+  res.send(200)
+})
 
 app.listen(3000)
